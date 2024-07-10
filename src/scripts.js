@@ -34,3 +34,25 @@ function handleClickOutside(event) {
         document.removeEventListener('click', handleClickOutside);
     }
 }
+
+window.addEventListener('DOMContentLoaded', function () {
+    const mediaQuery = window.matchMedia('(max-width: 950px)');
+    const elements = document.querySelectorAll('.w-1\\/4');
+
+    function handleMediaQuery(mediaQuery) {
+        if (mediaQuery.matches) {
+            elements.forEach(element => {
+                element.classList.remove('w-1/4');
+                element.classList.add('w-1/2');
+            });
+        } else if (!mediaQuery.matches) {
+            elements.forEach(element => {
+                element.classList.remove('w-1/2');
+                element.classList.add('w-1/4');
+            });
+        }
+    }
+
+    handleMediaQuery(mediaQuery);
+    mediaQuery.addEventListener('change', handleMediaQuery);
+});
