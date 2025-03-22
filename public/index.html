@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta name="description"
+        content="Taller Todo Frenos - Expertos en el mantenimiento y reparación de sistemas de frenos para todo tipo de vehículos. Ofrecemos inspección de frenos, reemplazo de pastillas y discos de freno, y más. Contáctanos hoy mismo.">
+    <meta name="keywords"
+        content="Taller Todo Frenos, mantenimiento de frenos, reparación de frenos, inspección de frenos, reemplazo de pastillas de freno, reemplazo de discos de freno, frenos, freno, taller de frenos, sistema de frenos, frenos de coche, frenos de moto, frenos de camión, frenos de vehículo, frenos de automóvil, frenos de camioneta, frenos de furgoneta, ">
+    <meta name="author" content="Taller Todo Frenos">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Todo Frenos</title>
+    <link href="src/styles.css" rel="stylesheet">
+    <link rel="icon" href="img/logo3.png">
+    <meta property="og:title" content="Todo Frenos">
+    <meta property="og:description" content="Expertos en el mantenimiento y reparación de sistemas de frenos para todo tipo de vehículos.">
+    <meta property="og:image" content="img/logo3.png">
+    <meta property="og:url" content="https://todo-frenos.netlify.app">
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="Todo Frenos">
+    <meta name="twitter:description" content="Expertos en el mantenimiento y reparación de sistemas de frenos para todo tipo de vehículos.">
+    <meta name="twitter:image" content="img/logo3.png">
+    <meta name="robots" content="index, follow">
+    <meta name="googlebot" content="index, follow">
+    <meta name="language" content="es">
+    <link rel="canonical" href="https://todo-frenos.netlify.app">
+    </head>
+<body class="bg-gray-900">
+    <nav class="bg-gray-800 fixed top-0 left-0 w-full z-10">
+        <div class="px-4">
+            <div class="flex items-center justify-between h-16 relative">
+                <div class="flex-shrink-0 pl-1">
+                    <a href="#inicio" class="text-white">
+                        <img src="img/logo3.png" alt="Logo" class="w-16 h-16">
+                    </a>
+                </div>
+                <div class="flex-1 sm:block hidden items-center content-center">
+                    <div class="ml-10 flex flex-1 w-11/12 text-center">
+                        <a href="#inicio"
+                            class="flex items-center justify-center text-gray-300 hover:bg-gray-700 hover:text-white px-3 py-2 rounded-md text-sm font-medium w-full h-14">Inicio</a>
+                        <a href="#nosotros"
+                            class="flex items-center justify-center text-gray-300 hover:bg-gray-700 hover:text-white px-3 py-2 rounded-md text-sm font-medium w-full h-14">Acerca
+                            de nosotros</a>
+                        <a href="#servicios"
+                            class="flex items-center justify-center text-gray-300 hover:bg-gray-700 hover:text-white px-3 py-2 rounded-md text-sm font-medium w-full h-14">Servicios</a>
+                        <a href="#contacto"
+                            class="flex items-center justify-center text-gray-300 hover:bg-gray-700 hover:text-white px-3 py-2 rounded-md text-sm font-medium w-full h-14">Contactanos</a>
+                    </div>
+                </div>
+                <div class="sm:hidden">
+                    <button type="button"
+                        class="text-gray-300 hover:bg-gray-700 hover:text-white px-3 py-2 rounded-md text-sm font-medium focus:outline-none"
+                        onclick="toggleMenu()">Menu</button>
+                    <div class="hidden flex-col bg-gray-700 mt-16 absolute top-0 right-0" id="menu-container">
+                        <a href="#inicio"
+                            class="block bg-gray-800 text-gray-300 hover:bg-gray-700 hover:text-white px-3 py-2 text-sm font-medium"
+                            onclick="toggleMenu()">Inicio</a>
+                        <a href="#nosotros"
+                            class="block bg-gray-800 text-gray-300 hover:bg-gray-700 hover:text-white px-3 py-2 text-sm font-medium"
+                            onclick="toggleMenu()">Acerca
+                            de nosotros</a>
+                        <a href="#servicios"
+                            class="block  bg-gray-800 text-gray-300 hover:bg-gray-700 hover:text-white px-3 py-2 text-sm font-medium"
+                            onclick="toggleMenu()">Servicios</a>
+                        <a href="#contacto"
+                            class="block  bg-gray-800 text-gray-300 hover:bg-gray-700 hover:text-white px-3 py-2 text-sm font-medium"
+                            onclick="toggleMenu()">Contáctanos</a>
+                    </div>
+                </div>
+            </div>
+    </nav>
+    <main>
+        <div class="bg-[url('../img/frenos2.jpeg')] bg-cover bg-center bg-no-repeat w-full h-full object-cover  text-blue-100 text-center font-bold mt-8 -z-10 text-shadow-lg"
+            id="inicio">
+            <div class=" w-full h-full inset-0 items-center justify-center bg-opacity-40 bg-orange-200 py-8 shadow-inset">
+                <h1 class="text-4xl mb-4 p-4">Taller Todo Frenos</h1>
+                <p class="text-lg mx-2">Bienvenido al Taller Todo Frenos. Somos expertos en el mantenimiento y
+                    reparación de sistemas de frenos para todo tipo de vehículos. Nuestro equipo de profesionales
+                    está listo para brindarte un servicio de calidad y garantizar tu seguridad en la
+                    carretera.
+                </p>
+                <p class="text-lg mx-2">Ofrecemos una amplia gama de servicios, que incluyen inspección de frenos,
+                    reemplazo de
+                    pastillas y discos de freno, rectificación de disco y campana, reparación de servo y bomba de freno,
+                    y mucho más. Trabajamos con la intención de generar confianza y comprometernos en que tu vehículo esté en las mejores manos, brindándote un servicio de calidad para así asegurar su conformidad.</p>
+            </div>
+        </div>
+
+        <div class="bg-gray-900 text-white text-center py-8 mx-2" id="nosotros">
+            <h2 class="text-3xl font-bold mb-4">Acerca de nosotros</h2>
+            <p class="text-lg">En Todo Frenos, nos especializamos en brindar servicios de alta calidad para el
+                mantenimiento y reparación de sistemas de frenos. Con más de 50 años de experiencia en el sector, nos
+                hemos consolidado como un referente en la región, ofreciendo soluciones confiables y eficaces para la
+                seguridad de nuestros clientes, asegurando la satisfacción y tranquilidad de quienes confían en
+                nosotros. En Todo Frenos, nuestra misión es mantener la seguridad en cada kilómetro recorrido.</p>
+        </div>
+
+        <div class="bg-gray-900 text-white text-center py-8" id="servicios">
+            <h2 class="text-3xl font-bold mb-4">Servicios</h2>
+            <div class="flex flex-wrap justify-center">
+                <div class="w-1/2 lg:w-1/4 p-4">
+                    <img src="img/iconos/icons8-car-service-64.png" alt="Servicio de coche icono"
+                        class="w-16 h-16 mx-auto">
+                    <h3 class="text-xl font-bold my-4">Inspección de frenos</h3>
+                    <p class="text-lg">Realizamos una inspección completa de tu sistema de frenos para identificar
+                        cualquier problema y garantizar su correcto funcionamiento.</p>
+                </div>
+                <div class="w-1/2 lg:w-1/4 p-4">
+                    <img src="img/iconos/icons8-brake-disc-60.png" alt="Disco de freno icono" class="w-16 h-16 mx-auto">
+                    <h3 class="text-xl font-bold my-4">Reemplazo de pastillas y discos de freno</h3>
+                    <p class="text-lg">Reemplazamos las pastillas y discos de freno desgastados para restaurar la
+                        eficacia de tu sistema de frenos.</p>
+                </div>
+                <div class="w-1/2 lg:w-1/4 p-4">
+                    <img src="img/iconos/icons8-brake-pedal-100.png" alt="Pedal de freno icono"
+                        class="w-16 h-16 mx-auto">
+                    <h3 class="text-xl font-bold my-4">Rectificación de disco y campana</h3>
+                    <p class="text-lg">Realizamos la rectificación de discos y campanas de freno para restaurar su
+                        superficie de contacto y mejorar el rendimiento de frenado.</p>
+                </div>
+                <div class="w-1/2 lg:w-1/4 p-4">
+                    <img src="img/iconos/icons8-car-service-64.png" alt="Pedal de freno icono"
+                        class="w-16 h-16 mx-auto">
+                    <h3 class="text-xl font-bold my-4">Reparación de servo y bomba de freno</h3>
+                    <p class="text-lg">Ofrecemos servicios de reparación para servos y bombas de freno, asegurando un
+                        funcionamiento óptimo y seguro del sistema de frenado de tu vehículo.</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="bg-gray-900 text-white text-center py-8" id="contacto">
+            <h2 class="text-3xl font-bold mb-4">Contactanos</h2>
+            <div class="flex justify-center items-center my-5 mx-3">
+                <a href="https://api.whatsapp.com/send?phone=5491165385555" target="_blank" class="mr-4 flex">
+                    <img src="img/iconos/icons8-whatsapp-50.png" alt="WhatsApp Icon" class="w-8 h-8 mr-3 text-white">
+                    <span class="  text-white self-center">WhatsApp</span>
+                </a>
+                <a href="tel:+5491165385555" target="_blank" class="mr-4 flex">
+                    <img src="img/iconos/icons8-phone-100.png" alt="Phone Icon" class="w-8 h-8 mr-3 text-white">
+                    <span class="text-white self-center">Telefono</span>
+                </a>
+                <a href="https://maps.app.goo.gl/DQRJ5UdJjgps5yuP7" target="_blank" class="mr-4 flex">
+                    <img src="img/iconos/icons8-location-50.png" alt="Phone Icon" class="w-8 h-8 mr-3 text-white">
+                    <span class="text-white self-center">Ubicacion</span>
+                </a>
+            </div>
+            <p class="text-lg">¡Contáctanos hoy mismo para obtener más información sobre nuestros servicios y programar
+                una cita. Consulta y revision sin cargo!</p>
+        </div>
+    </main>
+
+    <footer class="bg-gray-800 text-white text-center py-4 shadow-inset-white">
+        <p>&copy; 2024 Taller Todo Frenos. Todos los derechos reservados.</p>
+        <p>Desarrollado por <a href="mailto:arliayoel23@gmail.com" target="_blank"
+            class="text-blue-300">Yoel Arlia</a></p>
+    </footer>
+</body>
+<script src="src/scripts.js"> </script>
+</html>
