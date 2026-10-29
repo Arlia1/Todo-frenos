@@ -2,7 +2,7 @@
 
 ## 1. Identidad y Propósito
 - **Negocio:** Taller especializado en sistemas de frenos mecánicos e hidráulicos para automóviles, utilitarios y flotas comerciales.
-- **Ubicación:** Av. Crisólogo Larralde 1233, Gerli, Partido de Avellaneda, Provincia de Buenos Aires, Argentina.
+- **Ubicación:** Av. Crisólogo Larralde 1231, Gerli, Partido de Avellaneda, Provincia de Buenos Aires, Argentina.
 - **Trayectoria:** Más de 35 años de oficio continuo en la zona sur del conurbano bonaerense.
 - **Propuesta de Valor:** Diagnóstico preciso, revisión visual sin cargo, repuestos garantizados, reparación de servo freno (servofreno), rectificación propia en torno y trato directo con mecánicos especialistas.
 - **Tono de Marca:** Técnico, directo, honesto, seguro y confiable. Cero humo publicitario, sin términos vacíos ni afirmaciones infladas.

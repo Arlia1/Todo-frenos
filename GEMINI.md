@@ -1,6 +1,6 @@
 # Todo Frenos — Directrices de Desarrollo
 
-Este proyecto es la página web oficial del taller mecánico **Todo Frenos**, ubicado en Av. Crisólogo Larralde 1233, Gerli, Avellaneda.
+Este proyecto es la página web oficial del taller mecánico **Todo Frenos**, ubicado en Av. Crisólogo Larralde 1231, Gerli, Avellaneda.
 
 ## Pautas Clave
 - **Sin IA Slop:** Respetar rigurosamente las pautas de `DESIGN.md` y de antislop. Evitar copys vacíos, gradientes genéricos, componentes de adorno y falsos testimonios.

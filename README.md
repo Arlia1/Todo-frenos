@@ -13,7 +13,7 @@ Sitio desplegado en producción: [todo-frenos.netlify.app](https://todo-frenos.n
 - **Guía de Diagnóstico de Fallas:** Detección de síntomas habituales (pedal esponjoso, ruidos metálicos, vibraciones al frenar, desvíos).
 - **Catálogo Técnico de Servicios:** Detalle de trabajos de rectificación en torno propio, pastillas y discos, bombas maestras, reparación de servo freno (servofreno) y sustitución de líquido de frenos.
 - **Cotizador / Generador de Consulta para WhatsApp:** Herramienta interactiva para que los conductores preparen su consulta técnica con vehículo y síntoma antes de contactar al taller.
-- **Ubicación y Datos Reales de Taller:** Datos de localización física (Av. Crisólogo Larralde 1233, Gerli), mapa interactivo, horarios comerciales y enlaces directos a Google Maps y llamada telefónica.
+- **Ubicación y Datos Reales de Taller:** Datos de localización física (Av. Crisólogo Larralde 1231, Gerli), mapa interactivo, horarios comerciales y enlaces directos a Google Maps y llamada telefónica.
 - **SEO y Datos Estructurados:** Marcado Schema.org (`AutoRepair`), Open Graph, Twitter Cards y etiquetas de geolocalización.
 
 ## 📚 Tecnologías utilizadas
@@ -45,6 +45,6 @@ Sitio desplegado en producción: [todo-frenos.netlify.app](https://todo-frenos.n
    ```
 
 ## 📍 Ubicación
-- **Dirección:** Av. Crisólogo Larralde 1233, Gerli, Partido de Avellaneda, Buenos Aires (CP 1870)
+- **Dirección:** Av. Crisólogo Larralde 1231, Gerli, Partido de Avellaneda, Buenos Aires (CP 1870)
 - **Horarios:** Lunes a Viernes de 08:00 a 18:00 hs | Sábados de 08:00 a 13:00 hs
 - **Teléfono / WhatsApp:** +54 9 11 6538-5555

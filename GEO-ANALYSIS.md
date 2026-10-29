@@ -11,7 +11,7 @@
 | **Citabilidad de Pasajes (Citability Score)** | 25% | 24/25 | Bloques de respuesta autosuficientes (~130-170 palabras) con definición directa en los primeros 50 vocablos. |
 | **Legibilidad Estructural (Structural Readability)** | 20% | 19/20 | Jerarquía estricta H1 -> H2 -> H3 con encabezados basados en preguntas e intención de búsqueda. |
 | **Contenido Multimodal (Multi-Modal Content)** | 15% | 13/15 | Marcado visual limpio, mapas embebidos, cotizador interactivo estructurado y datos Schema. |
-| **Señales de Marca y Autoridad (Brand Signals & NAP)** | 20% | 18/20 | Consistencia NAP total (Av. Crisólogo Larralde 1233, Gerli), trayectoria real (35 años) y datos de contacto directos. |
+| **Señales de Marca y Autoridad (Brand Signals & NAP)** | 20% | 18/20 | Consistencia NAP total (Av. Crisólogo Larralde 1231, Gerli), trayectoria real (35 años) y datos de contacto directos. |
 | **Accesibilidad Técnica y Renders (Technical Accessibility)** | 20% | 18/20 | 100% HTML estático procesable sin dependencia obligatoria de JavaScript para rastreadores crudos. |
 
 ---
@@ -59,7 +59,7 @@ Cada rastreador y su capacidad específica se informan por separado:
 ## 5. Análisis de Señales de Marca y NAP (Name, Address, Phone)
 
 - **Nombre Comercial:** Todo Frenos
-- **Dirección Física Unificada:** Av. Crisólogo Larralde 1233, Gerli, Partido de Avellaneda, Buenos Aires (CP 1870).
+- **Dirección Física Unificada:** Av. Crisólogo Larralde 1231, Gerli, Partido de Avellaneda, Buenos Aires (CP 1870).
 - **Teléfono / WhatsApp:** `+54 9 11 6538-5555` / `11 6538-5555`.
 - **Enlace de Google Maps:** Integrado mediante botón directo (`maps.app.goo.gl/DQRJ5UdJjgps5yuP7`) e `iframe` interactivo en la sección de contacto.
 - **Consistencia:** 100% de coincidencia entre los metadatos HTML, el bloque Schema.org, el archivo `llms.txt` y los textos visibles de pie de página.
@@ -71,7 +71,7 @@ Cada rastreador y su capacidad específica se informan por separado:
 Se estructuraron bloques autosuficientes que no requieren contexto externo para ser citados por un LLM:
 
 ### Pasaje de Identidad de Marca y Localización (Sección Hero)
-> *"Todo Frenos es un taller mecánico especializado exclusivamente en el sistema de frenos para automóviles, utilitarios y camionetas en Gerli, Avellaneda. Con más de 35 años de trayectoria en Av. Crisólogo Larralde 1233, nos especializamos en reparación de servo freno (servofreno), rectificación de discos y campanas en torno propio, cambio de pastillas y reacondicionamiento de bombas principales de freno."*  
+> *"Todo Frenos es un taller mecánico especializado exclusivamente en el sistema de frenos para automóviles, utilitarios y camionetas en Gerli, Avellaneda. Con más de 35 años de trayectoria en Av. Crisólogo Larralde 1231, nos especializamos en reparación de servo freno (servofreno), rectificación de discos y campanas en torno propio, cambio de pastillas y reacondicionamiento de bombas principales de freno."*  
 > **Longitud:** ~60 palabras. Responde inmediatamente a: *¿Qué es Todo Frenos? ¿Dónde queda? ¿Qué reparan?*
 
 ### Pasaje Técnico Especializado (Sección Reparación de Servo)

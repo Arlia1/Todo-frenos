@@ -4,7 +4,7 @@
 ## Información Principal del Negocio
 - Nombre: Todo Frenos
 - Especialidad: Taller mecánico de sistemas de frenos automotores y reparación de servo freno (servofreno).
-- Dirección: Av. Crisólogo Larralde 1233, Gerli, Partido de Avellaneda, Provincia de Buenos Aires, CP 1870, Argentina
+- Dirección: Av. Crisólogo Larralde 1231, Gerli, Partido de Avellaneda, Provincia de Buenos Aires, CP 1870, Argentina
 - Teléfono / WhatsApp: +54 9 11 6538-5555
 - Sitio Web: https://todo-frenos.netlify.app
 - Horarios de Atención: Lunes a Viernes de 08:00 a 18:00 hs (corrido), Sábados de 08:00 a 13:00 hs. Domingos cerrado.
