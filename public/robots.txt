@@ -1,0 +1,22 @@
+# robots.txt for Todo Frenos (https://todo-frenos.netlify.app)
+User-agent: *
+Allow: /
+
+# AI Search Crawlers (Search citability allowed for Google, ChatGPT, Claude, Perplexity)
+User-agent: Googlebot
+Allow: /
+
+User-agent: OAI-SearchBot
+Allow: /
+
+User-agent: Claude-SearchBot
+Allow: /
+
+User-agent: PerplexityBot
+Allow: /
+
+User-agent: Applebot
+Allow: /
+
+# Sitemaps
+Sitemap: https://todo-frenos.netlify.app/sitemap.xml

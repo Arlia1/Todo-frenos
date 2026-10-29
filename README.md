@@ -2,7 +2,7 @@
 
 ![Todo Frenos Logo](public/img/logo3.png)
 
-Sitio web oficial de **Todo Frenos**, taller mecánico especializado en reparación y mantenimiento integral de sistemas de frenos con más de 50 años de oficio en Gerli, Avellaneda (Buenos Aires, Argentina).
+Sitio web oficial de **Todo Frenos**, taller mecánico especializado en reparación y mantenimiento integral de sistemas de frenos y reparación de servo freno con más de 35 años de oficio en Gerli, Avellaneda (Buenos Aires, Argentina).
 
 ## 🌐 Enlace a la página
 Sitio desplegado en producción: [todo-frenos.netlify.app](https://todo-frenos.netlify.app)
@@ -11,7 +11,7 @@ Sitio desplegado en producción: [todo-frenos.netlify.app](https://todo-frenos.n
 - **Diseño sin IA Slop:** Jerarquía visual automotriz limpia, sobria y de alto contraste, guiada por `DESIGN.md`.
 - **Accesibilidad y Contraste:** Verificado bajo normas WCAG AA (ratios de contraste superiores a 4.5:1 en textos y navegación con soporte completo de teclado y salto accesible de contenido).
 - **Guía de Diagnóstico de Fallas:** Detección de síntomas habituales (pedal esponjoso, ruidos metálicos, vibraciones al frenar, desvíos).
-- **Catálogo Técnico de Servicios:** Detalle de trabajos de rectificación en torno propio, pastillas y discos, bombas y servo frenos, circuitos ABS y líquido de frenos.
+- **Catálogo Técnico de Servicios:** Detalle de trabajos de rectificación en torno propio, pastillas y discos, bombas maestras, reparación de servo freno (servofreno) y sustitución de líquido de frenos.
 - **Cotizador / Generador de Consulta para WhatsApp:** Herramienta interactiva para que los conductores preparen su consulta técnica con vehículo y síntoma antes de contactar al taller.
 - **Ubicación y Datos Reales de Taller:** Datos de localización física (Av. Crisólogo Larralde 1233, Gerli), mapa interactivo, horarios comerciales y enlaces directos a Google Maps y llamada telefónica.
 - **SEO y Datos Estructurados:** Marcado Schema.org (`AutoRepair`), Open Graph, Twitter Cards y etiquetas de geolocalización.
