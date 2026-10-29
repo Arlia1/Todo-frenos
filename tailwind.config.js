@@ -1,30 +1,41 @@
 /** @type {import('tailwindcss').Config} */
 module.exports = {
-  content: ['./public/index.html'],
+  content: ['./public/**/*.{html,js}'],
   theme: {
-    extend: { 
-      textShadow: {
-        'default': '2px 2px 4px rgba(0, 0, 0, 0.6)', 
-        'lg': '3px 3px 1px rgba(0, 0, 0, 1)',      
+    extend: {
+      colors: {
+        brand: {
+          red: '#DC2626',
+          'red-hover': '#B91C1C',
+          'red-light': '#F87171',
+          slate: '#0B0F19',
+          surface: '#131B2E',
+          'surface-card': '#1E293B',
+          'surface-light': '#F8FAFC',
+          border: '#334155',
+        },
+        workshop: {
+          green: '#15803D',
+          'green-hover': '#166534',
+        }
+      },
+      fontFamily: {
+        sans: [
+          'system-ui',
+          '-apple-system',
+          'BlinkMacSystemFont',
+          '"Segoe UI"',
+          'Roboto',
+          '"Helvetica Neue"',
+          'Arial',
+          'sans-serif',
+        ],
       },
       boxShadow: {
-        'inset': 'inset 0px -5px 5px  rgba(26, 32, 44, .4)',
-      },
+        'card': '0 4px 6px -1px rgba(0, 0, 0, 0.25), 0 2px 4px -2px rgba(0, 0, 0, 0.2)',
+        'lift': '0 10px 15px -3px rgba(0, 0, 0, 0.3), 0 4px 6px -4px rgba(0, 0, 0, 0.25)',
+      }
     },
   },
-  plugins: [ function({ addUtilities }) {
-    const newUtilities = {
-      '.text-shadow': {
-        textShadow: '2px 2px 4px rgba(0, 0, 0, 0.6)',
-      },
-      '.text-shadow-lg': {
-        textShadow: '3px 3px 1px rgba(0, 0, 0, 0.9)',
-      },
-      '.shadow-inset': {
-        boxShadow: 'inset 0px -5px 5px  rgba(26, 32, 44, .4)',
-      },
-    }
-    addUtilities(newUtilities, ['responsive', 'hover'])
-  }],
+  plugins: [],
 }
-

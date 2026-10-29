@@ -1,159 +1,879 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es" class="scroll-smooth">
 
 <head>
-    <meta name="description"
-        content="Taller Todo Frenos - Expertos en el mantenimiento y reparación de sistemas de frenos para todo tipo de vehículos. Ofrecemos inspección de frenos, reemplazo de pastillas y discos de freno, y más. Contáctanos hoy mismo.">
-    <meta name="keywords"
-        content="Taller Todo Frenos, mantenimiento de frenos, reparación de frenos, inspección de frenos, reemplazo de pastillas de freno, reemplazo de discos de freno, frenos, freno, taller de frenos, sistema de frenos, frenos de coche, frenos de moto, frenos de camión, frenos de vehículo, frenos de automóvil, frenos de camioneta, frenos de furgoneta, ">
-    <meta name="author" content="Taller Todo Frenos">
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Todo Frenos</title>
-    <link href="src/styles.css" rel="stylesheet">
-    <link rel="icon" href="img/logo3.png">
-    <meta property="og:title" content="Todo Frenos">
-    <meta property="og:description" content="Expertos en el mantenimiento y reparación de sistemas de frenos para todo tipo de vehículos.">
-    <meta property="og:image" content="img/logo3.png">
-    <meta property="og:url" content="https://todo-frenos.netlify.app">
-    <meta name="twitter:card" content="summary_large_image">
-    <meta name="twitter:title" content="Todo Frenos">
-    <meta name="twitter:description" content="Expertos en el mantenimiento y reparación de sistemas de frenos para todo tipo de vehículos.">
-    <meta name="twitter:image" content="img/logo3.png">
+    <title>Todo Frenos — Taller Especializado en Frenos | Gerli, Avellaneda</title>
+    <meta name="description"
+        content="Taller mecánico Todo Frenos en Gerli, Avellaneda. Más de 50 años especializados en frenos: pastillas, discos, rectificación en torno propio, servo y bomba de freno. Revisión visual sin cargo.">
+    <meta name="keywords"
+        content="todo frenos, taller de frenos, frenos gerli, frenos avellaneda, cambio de pastillas de freno, rectificacion de discos, reparacion de servo, bomba de freno, frenos zona sur">
+    <meta name="author" content="Todo Frenos">
     <meta name="robots" content="index, follow">
-    <meta name="googlebot" content="index, follow">
-    <meta name="language" content="es">
     <link rel="canonical" href="https://todo-frenos.netlify.app">
-    </head>
-<body class="bg-gray-900">
-    <nav class="bg-gray-800 fixed top-0 left-0 w-full z-10">
-        <div class="px-4">
-            <div class="flex items-center justify-between h-16 relative">
-                <div class="flex-shrink-0 pl-1">
-                    <a href="#inicio" class="text-white">
-                        <img src="img/logo3.png" alt="Logo" class="w-16 h-16">
+    <link rel="icon" type="image/png" href="img/logo3.png">
+
+    <!-- Open Graph / Redes Sociales -->
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="Todo Frenos — Taller Especializado en Frenos | Gerli, Avellaneda">
+    <meta property="og:description"
+        content="Taller mecánico especializado en sistemas de frenos para autos y utilitarios. Diagnóstico preciso, rectificación en torno propio y atención en el día.">
+    <meta property="og:image" content="https://todo-frenos.netlify.app/img/logo3.png">
+    <meta property="og:url" content="https://todo-frenos.netlify.app">
+    <meta property="og:locale" content="es_AR">
+
+    <!-- Twitter Card -->
+    <meta name="twitter:card" content="summary">
+    <meta name="twitter:title" content="Todo Frenos — Taller Especializado en Frenos">
+    <meta name="twitter:description"
+        content="Más de 50 años de oficio en Gerli, Avellaneda. Revisión visual sin cargo y garantía en repuestos y mano de obra.">
+    <meta name="twitter:image" content="https://todo-frenos.netlify.app/img/logo3.png">
+
+    <!-- Geolocalización -->
+    <meta name="geo.region" content="AR-B">
+    <meta name="geo.placename" content="Gerli, Avellaneda">
+    <meta name="geo.position" content="-34.6790463;-58.3680532">
+    <meta name="ICBM" content="-34.6790463, -58.3680532">
+
+    <!-- Estilos compilados -->
+    <link href="src/styles.css" rel="stylesheet">
+
+    <!-- Schema.org JSON-LD para AutoRepair -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "AutoRepair",
+      "name": "Todo Frenos",
+      "image": "https://todo-frenos.netlify.app/img/logo3.png",
+      "@id": "https://todo-frenos.netlify.app/#localbusiness",
+      "url": "https://todo-frenos.netlify.app",
+      "telephone": "+5491165385555",
+      "priceRange": "$$",
+      "address": {
+        "@type": "PostalAddress",
+        "streetAddress": "Av. Crisólogo Larralde 1233",
+        "addressLocality": "Gerli",
+        "addressRegion": "Buenos Aires",
+        "postalCode": "1870",
+        "addressCountry": "AR"
+      },
+      "geo": {
+        "@type": "GeoCoordinates",
+        "latitude": -34.6790463,
+        "longitude": -58.3680532
+      },
+      "openingHoursSpecification": [
+        {
+          "@type": "OpeningHoursSpecification",
+          "dayOfWeek": ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday"],
+          "opens": "08:00",
+          "closes": "18:00"
+        },
+        {
+          "@type": "OpeningHoursSpecification",
+          "dayOfWeek": ["Saturday"],
+          "opens": "08:00",
+          "closes": "13:00"
+        }
+      ],
+      "areaServed": [
+        "Avellaneda",
+        "Gerli",
+        "Lanús",
+        "Sarandí",
+        "Zona Sur Gran Buenos Aires"
+      ]
+    }
+    </script>
+</head>
+
+<body class="bg-slate-950 text-slate-100 font-sans antialiased selection:bg-red-600 selection:text-white">
+    <!-- Enlace accesible de salto al contenido -->
+    <a href="#contenido-principal" class="skip-to-content">Saltar al contenido principal</a>
+
+    <!-- Barra Superior de Información y Contacto Rápido -->
+    <header class="bg-slate-900 border-b border-slate-800 text-xs text-slate-300">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-2 flex flex-wrap justify-between items-center gap-2">
+            <div class="flex items-center gap-4 flex-wrap">
+                <a href="https://maps.app.goo.gl/DQRJ5UdJjgps5yuP7" target="_blank" rel="noopener noreferrer"
+                    class="flex items-center gap-1.5 hover:text-white transition-colors focus-visible:outline-red-500">
+                    <svg class="w-4 h-4 text-red-500 shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24" aria-hidden="true">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                            d="M17.657 16.657L13.414 20.9a1.998 1.998 0 01-2.827 0l-4.244-4.243a8 8 0 1111.314 0z"></path>
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                            d="M15 11a3 3 0 11-6 0 3 3 0 016 0z"></path>
+                    </svg>
+                    <span>Av. Crisólogo Larralde 1233, Gerli, Avellaneda</span>
+                </a>
+                <span class="hidden md:inline-block text-slate-600" aria-hidden="true">|</span>
+                <div class="hidden sm:flex items-center gap-1.5 text-slate-400">
+                    <svg class="w-4 h-4 text-slate-400 shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24" aria-hidden="true">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                            d="M12 8v4l3 3m6-3a9 9 0 11-18 0 9 9 0 0118 0z"></path>
+                    </svg>
+                    <span>Lun a Vie: 8:00 a 18:00 | Sáb: 8:00 a 13:00</span>
+                </div>
+            </div>
+            <div class="flex items-center gap-4">
+                <a href="tel:+5491165385555"
+                    class="flex items-center gap-1.5 hover:text-white font-medium transition-colors focus-visible:outline-red-500">
+                    <svg class="w-4 h-4 text-red-500 shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24" aria-hidden="true">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                            d="M3 5a2 2 0 012-2h3.28a1 1 0 01.948.684l1.498 4.493a1 1 0 01-.502 1.21l-2.257 1.13a11.042 11.042 0 005.516 5.516l1.13-2.257a1 1 0 011.21-.502l4.493 1.498a1 1 0 01.684.949V19a2 2 0 01-2 2h-1C9.716 21 3 14.284 3 6V5z"></path>
+                    </svg>
+                    <span>11 6538-5555</span>
+                </a>
+                <a href="https://api.whatsapp.com/send?phone=5491165385555" target="_blank" rel="noopener noreferrer"
+                    class="hidden sm:inline-flex items-center gap-1 text-green-400 hover:text-green-300 font-semibold transition-colors focus-visible:outline-green-400">
+                    <span>WhatsApp Directo</span>
+                </a>
+            </div>
+        </div>
+    </header>
+
+    <!-- Navegación Principal -->
+    <nav class="bg-slate-900/95 backdrop-blur-md sticky top-0 z-40 border-b border-slate-800" aria-label="Menú principal">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="flex items-center justify-between h-20">
+                <!-- Logotipo de la marca -->
+                <a href="#inicio" class="flex items-center gap-3 focus-visible:outline-red-500 rounded p-1">
+                    <img src="img/logo3.png" alt="Todo Frenos Logo" class="h-12 w-12 object-contain" width="48" height="48">
+                    <div>
+                        <span class="text-xl font-extrabold tracking-tight text-white block leading-tight">TODO FRENOS</span>
+                        <span class="text-xs font-medium text-red-500 tracking-wider uppercase block">Taller Especializado</span>
+                    </div>
+                </a>
+
+                <!-- Enlaces en escritorio -->
+                <div class="hidden lg:flex items-center gap-1 xl:gap-2">
+                    <a href="#inicio" class="nav-link px-3 py-2 text-sm font-medium text-slate-200 hover:text-white rounded-md transition-colors focus-visible:outline-red-500">Inicio</a>
+                    <a href="#sintomas" class="nav-link px-3 py-2 text-sm font-medium text-slate-200 hover:text-white rounded-md transition-colors focus-visible:outline-red-500">Diagnóstico</a>
+                    <a href="#servicios" class="nav-link px-3 py-2 text-sm font-medium text-slate-200 hover:text-white rounded-md transition-colors focus-visible:outline-red-500">Servicios</a>
+                    <a href="#cotizador" class="nav-link px-3 py-2 text-sm font-medium text-slate-200 hover:text-white rounded-md transition-colors focus-visible:outline-red-500">Cotizador</a>
+                    <a href="#nosotros" class="nav-link px-3 py-2 text-sm font-medium text-slate-200 hover:text-white rounded-md transition-colors focus-visible:outline-red-500">Nosotros</a>
+                    <a href="#faq" class="nav-link px-3 py-2 text-sm font-medium text-slate-200 hover:text-white rounded-md transition-colors focus-visible:outline-red-500">Preguntas</a>
+                    <a href="#contacto" class="nav-link px-3 py-2 text-sm font-medium text-slate-200 hover:text-white rounded-md transition-colors focus-visible:outline-red-500">Contacto</a>
+                </div>
+
+                <!-- Botón de acción principal en navbar -->
+                <div class="hidden sm:flex items-center gap-3">
+                    <a href="#cotizador"
+                        class="inline-flex items-center justify-center px-4 py-2 border border-red-600 text-sm font-semibold rounded-lg text-white bg-red-600 hover:bg-red-700 transition-colors shadow-sm focus-visible:outline-red-500">
+                        Pedir Presupuesto
                     </a>
                 </div>
-                <div class="flex-1 sm:block hidden items-center content-center">
-                    <div class="ml-10 flex flex-1 w-11/12 text-center">
-                        <a href="#inicio"
-                            class="flex items-center justify-center text-gray-300 hover:bg-gray-700 hover:text-white px-3 py-2 rounded-md text-sm font-medium w-full h-14">Inicio</a>
-                        <a href="#nosotros"
-                            class="flex items-center justify-center text-gray-300 hover:bg-gray-700 hover:text-white px-3 py-2 rounded-md text-sm font-medium w-full h-14">Acerca
-                            de nosotros</a>
-                        <a href="#servicios"
-                            class="flex items-center justify-center text-gray-300 hover:bg-gray-700 hover:text-white px-3 py-2 rounded-md text-sm font-medium w-full h-14">Servicios</a>
-                        <a href="#contacto"
-                            class="flex items-center justify-center text-gray-300 hover:bg-gray-700 hover:text-white px-3 py-2 rounded-md text-sm font-medium w-full h-14">Contactanos</a>
-                    </div>
-                </div>
-                <div class="sm:hidden">
-                    <button type="button"
-                        class="text-gray-300 hover:bg-gray-700 hover:text-white px-3 py-2 rounded-md text-sm font-medium focus:outline-none"
-                        onclick="toggleMenu()">Menu</button>
-                    <div class="hidden flex-col bg-gray-700 mt-16 absolute top-0 right-0" id="menu-container">
-                        <a href="#inicio"
-                            class="block bg-gray-800 text-gray-300 hover:bg-gray-700 hover:text-white px-3 py-2 text-sm font-medium"
-                            onclick="toggleMenu()">Inicio</a>
-                        <a href="#nosotros"
-                            class="block bg-gray-800 text-gray-300 hover:bg-gray-700 hover:text-white px-3 py-2 text-sm font-medium"
-                            onclick="toggleMenu()">Acerca
-                            de nosotros</a>
-                        <a href="#servicios"
-                            class="block  bg-gray-800 text-gray-300 hover:bg-gray-700 hover:text-white px-3 py-2 text-sm font-medium"
-                            onclick="toggleMenu()">Servicios</a>
-                        <a href="#contacto"
-                            class="block  bg-gray-800 text-gray-300 hover:bg-gray-700 hover:text-white px-3 py-2 text-sm font-medium"
-                            onclick="toggleMenu()">Contáctanos</a>
-                    </div>
+
+                <!-- Botón hamburguesa móvil -->
+                <div class="lg:hidden">
+                    <button type="button" id="mobile-menu-btn"
+                        class="p-2 rounded-md text-slate-300 hover:text-white hover:bg-slate-800 focus:outline-none focus-visible:ring-2 focus-visible:ring-red-500"
+                        aria-controls="mobile-menu" aria-expanded="false" aria-label="Abrir menú de navegación">
+                        <svg class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor" aria-hidden="true">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16" />
+                        </svg>
+                    </button>
                 </div>
             </div>
+        </div>
+
+        <!-- Menú móvil desplegable -->
+        <div class="hidden lg:hidden bg-slate-900 border-b border-slate-800 px-4 pt-2 pb-6 space-y-2" id="mobile-menu">
+            <a href="#inicio" class="block px-3 py-2.5 rounded-md text-base font-medium text-slate-200 hover:bg-slate-800 hover:text-white">Inicio</a>
+            <a href="#sintomas" class="block px-3 py-2.5 rounded-md text-base font-medium text-slate-200 hover:bg-slate-800 hover:text-white">Diagnóstico de Frenos</a>
+            <a href="#servicios" class="block px-3 py-2.5 rounded-md text-base font-medium text-slate-200 hover:bg-slate-800 hover:text-white">Nuestros Servicios</a>
+            <a href="#cotizador" class="block px-3 py-2.5 rounded-md text-base font-medium text-slate-200 hover:bg-slate-800 hover:text-white">Cotizador WhatsApp</a>
+            <a href="#nosotros" class="block px-3 py-2.5 rounded-md text-base font-medium text-slate-200 hover:bg-slate-800 hover:text-white">Acerca del Taller</a>
+            <a href="#faq" class="block px-3 py-2.5 rounded-md text-base font-medium text-slate-200 hover:bg-slate-800 hover:text-white">Preguntas Frecuentes</a>
+            <a href="#contacto" class="block px-3 py-2.5 rounded-md text-base font-medium text-slate-200 hover:bg-slate-800 hover:text-white">Ubicación y Contacto</a>
+            <div class="pt-4 border-t border-slate-800 flex flex-col gap-2">
+                <a href="#cotizador"
+                    class="w-full text-center px-4 py-3 rounded-lg font-semibold text-white bg-red-600 hover:bg-red-700 transition-colors">
+                    Pedir Presupuesto Sin Cargo
+                </a>
+                <a href="tel:+5491165385555"
+                    class="w-full text-center px-4 py-3 rounded-lg font-medium text-slate-200 bg-slate-800 hover:bg-slate-700 transition-colors">
+                    Llamar al 11 6538-5555
+                </a>
+            </div>
+        </div>
     </nav>
-    <main>
-        <div class="bg-[url('../img/frenos2.jpeg')] bg-cover bg-center bg-no-repeat w-full h-full object-cover  text-blue-100 text-center font-bold mt-8 -z-10 text-shadow-lg"
-            id="inicio">
-            <div class=" w-full h-full inset-0 items-center justify-center bg-opacity-40 bg-orange-200 py-8 shadow-inset">
-                <h1 class="text-4xl mb-4 p-4">Taller Todo Frenos</h1>
-                <p class="text-lg mx-2">Bienvenido al Taller Todo Frenos. Somos expertos en el mantenimiento y
-                    reparación de sistemas de frenos para todo tipo de vehículos. Nuestro equipo de profesionales
-                    está listo para brindarte un servicio de calidad y garantizar tu seguridad en la
-                    carretera.
-                </p>
-                <p class="text-lg mx-2">Ofrecemos una amplia gama de servicios, que incluyen inspección de frenos,
-                    reemplazo de
-                    pastillas y discos de freno, rectificación de disco y campana, reparación de servo y bomba de freno,
-                    y mucho más. Trabajamos con la intención de generar confianza y comprometernos en que tu vehículo esté en las mejores manos, brindándote un servicio de calidad para así asegurar su conformidad.</p>
-            </div>
-        </div>
 
-        <div class="bg-gray-900 text-white text-center py-8 mx-2" id="nosotros">
-            <h2 class="text-3xl font-bold mb-4">Acerca de nosotros</h2>
-            <p class="text-lg">En Todo Frenos, nos especializamos en brindar servicios de alta calidad para el
-                mantenimiento y reparación de sistemas de frenos. Con más de 50 años de experiencia en el sector, nos
-                hemos consolidado como un referente en la región, ofreciendo soluciones confiables y eficaces para la
-                seguridad de nuestros clientes, asegurando la satisfacción y tranquilidad de quienes confían en
-                nosotros. En Todo Frenos, nuestra misión es mantener la seguridad en cada kilómetro recorrido.</p>
-        </div>
+    <main id="contenido-principal">
+        <!-- Hero Section -->
+        <section id="inicio" class="relative overflow-hidden bg-slate-950 border-b border-slate-800">
+            <!-- Capa de imagen y gradiente de alto contraste -->
+            <div class="absolute inset-0 z-0">
+                <img src="img/frenos2.jpeg" alt="" class="w-full h-full object-cover object-center opacity-15 filter grayscale" aria-hidden="true">
+                <div class="absolute inset-0 bg-gradient-to-r from-slate-950 via-slate-950/95 to-slate-900/80"></div>
+            </div>
 
-        <div class="bg-gray-900 text-white text-center py-8" id="servicios">
-            <h2 class="text-3xl font-bold mb-4">Servicios</h2>
-            <div class="flex flex-wrap justify-center">
-                <div class="w-1/2 lg:w-1/4 p-4">
-                    <img src="img/iconos/icons8-car-service-64.png" alt="Servicio de coche icono"
-                        class="w-16 h-16 mx-auto">
-                    <h3 class="text-xl font-bold my-4">Inspección de frenos</h3>
-                    <p class="text-lg">Realizamos una inspección completa de tu sistema de frenos para identificar
-                        cualquier problema y garantizar su correcto funcionamiento.</p>
-                </div>
-                <div class="w-1/2 lg:w-1/4 p-4">
-                    <img src="img/iconos/icons8-brake-disc-60.png" alt="Disco de freno icono" class="w-16 h-16 mx-auto">
-                    <h3 class="text-xl font-bold my-4">Reemplazo de pastillas y discos de freno</h3>
-                    <p class="text-lg">Reemplazamos las pastillas y discos de freno desgastados para restaurar la
-                        eficacia de tu sistema de frenos.</p>
-                </div>
-                <div class="w-1/2 lg:w-1/4 p-4">
-                    <img src="img/iconos/icons8-brake-pedal-100.png" alt="Pedal de freno icono"
-                        class="w-16 h-16 mx-auto">
-                    <h3 class="text-xl font-bold my-4">Rectificación de disco y campana</h3>
-                    <p class="text-lg">Realizamos la rectificación de discos y campanas de freno para restaurar su
-                        superficie de contacto y mejorar el rendimiento de frenado.</p>
-                </div>
-                <div class="w-1/2 lg:w-1/4 p-4">
-                    <img src="img/iconos/icons8-car-service-64.png" alt="Pedal de freno icono"
-                        class="w-16 h-16 mx-auto">
-                    <h3 class="text-xl font-bold my-4">Reparación de servo y bomba de freno</h3>
-                    <p class="text-lg">Ofrecemos servicios de reparación para servos y bombas de freno, asegurando un
-                        funcionamiento óptimo y seguro del sistema de frenado de tu vehículo.</p>
+            <div class="relative z-10 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-16 sm:py-24 lg:py-28">
+                <div class="max-w-3xl">
+                    <div class="inline-flex items-center gap-2 px-3 py-1.5 rounded-md bg-red-950/80 border border-red-800 text-red-200 text-xs sm:text-sm font-semibold mb-6">
+                        <span class="w-2 h-2 rounded-full bg-red-500"></span>
+                        Más de 50 años de oficio en Gerli, Avellaneda
+                    </div>
+                    <h1 class="text-3xl sm:text-5xl lg:text-6xl font-extrabold text-white tracking-tight leading-tight sm:leading-none mb-6">
+                        Taller Especializado en <span class="text-red-500">Sistemas de Frenos</span>
+                    </h1>
+                    <p class="text-lg sm:text-xl text-slate-300 leading-relaxed mb-8">
+                        Atendemos autos particulares, utilitarios y flotas comerciales. Realizamos diagnóstico integral, rectificación de discos y campanas en torno propio, cambio de pastillas y reparación de servo freno.
+                    </p>
+
+                    <div class="flex flex-col sm:flex-row items-stretch sm:items-center gap-4 mb-10">
+                        <a href="https://api.whatsapp.com/send?phone=5491165385555&text=Hola%20Todo%20Frenos,%20quiero%20hacer%20una%20consulta%20por%20frenos"
+                            target="_blank" rel="noopener noreferrer"
+                            class="inline-flex items-center justify-center gap-2 px-6 py-3.5 rounded-lg text-white font-bold bg-green-700 hover:bg-green-800 text-base shadow-lg transition-colors focus-visible:outline-green-400">
+                            <svg class="w-5 h-5 fill-current" viewBox="0 0 24 24" aria-hidden="true">
+                                <path d="M12.031 2C6.496 2 2 6.496 2 12.031c0 1.97.574 3.805 1.572 5.352L2.094 22l4.742-1.445c1.492.906 3.238 1.477 5.195 1.477 5.535 0 10.031-4.496 10.031-10.031S17.566 2 12.031 2zm0 18.281c-1.742 0-3.344-.523-4.695-1.422l-.336-.227-2.82.859.875-2.734-.234-.367A8.17 8.17 0 013.78 12.03c0-4.555 3.7-8.25 8.25-8.25s8.25 3.695 8.25 8.25-3.695 8.25-8.25 8.25zm4.523-6.172c-.25-.125-1.469-.727-1.695-.812-.227-.086-.391-.125-.555.125-.164.25-.633.812-.781.977-.148.164-.297.188-.547.062s-1.055-.39-2.016-1.242c-.742-.664-1.242-1.484-1.391-1.734-.148-.25-.016-.383.109-.508.117-.117.25-.297.375-.445.125-.148.164-.25.25-.414.086-.164.047-.312-.023-.445-.07-.125-.555-1.336-.766-1.836-.203-.484-.414-.422-.57-.43-.148-.008-.32-.008-.492-.008s-.445.062-.68.32c-.234.25-.898.875-.898 2.133s.922 2.477 1.055 2.648c.133.172 1.812 2.766 4.383 3.875.617.266 1.094.422 1.469.547.617.203 1.18.172 1.625.109.492-.07 1.469-.602 1.672-1.18.203-.578.203-1.078.141-1.18-.062-.102-.227-.164-.477-.289z"/>
+                            </svg>
+                            <span>Escribinos por WhatsApp</span>
+                        </a>
+
+                        <a href="#cotizador"
+                            class="inline-flex items-center justify-center gap-2 px-6 py-3.5 rounded-lg text-slate-100 font-bold bg-slate-800 hover:bg-slate-700 border border-slate-700 text-base transition-colors focus-visible:outline-red-500">
+                            <span>Armar Consulta de Presupuesto</span>
+                        </a>
+                    </div>
+
+                    <!-- Indicadores de confianza -->
+                    <div class="grid grid-cols-1 sm:grid-cols-3 gap-4 pt-8 border-t border-slate-800">
+                        <div class="flex items-start gap-3">
+                            <svg class="w-6 h-6 text-red-500 shrink-0 mt-0.5" fill="none" stroke="currentColor" viewBox="0 0 24 24" aria-hidden="true">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"></path>
+                            </svg>
+                            <div>
+                                <h3 class="text-sm font-bold text-white">Revisión visual sin cargo</h3>
+                                <p class="text-xs text-slate-400 mt-0.5">Controlamos discos, pastillas y niveles de líquido sin compromiso.</p>
+                            </div>
+                        </div>
+
+                        <div class="flex items-start gap-3">
+                            <svg class="w-6 h-6 text-red-500 shrink-0 mt-0.5" fill="none" stroke="currentColor" viewBox="0 0 24 24" aria-hidden="true">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 21V5a2 2 0 00-2-2H7a2 2 0 00-2 2v16m14 0h2m-2 0h-5m-9 0H3m2 0h5M9 7h1m-1 4h1m4-4h1m-1 4h1m-5 10v-5a1 1 0 011-1h2a1 1 0 011 1v5m-4 0h4"></path>
+                            </svg>
+                            <div>
+                                <h3 class="text-sm font-bold text-white">Taller y torno propio</h3>
+                                <p class="text-xs text-slate-400 mt-0.5">Mecanizado y rectificado directo en nuestro taller sin intermediarios.</p>
+                            </div>
+                        </div>
+
+                        <div class="flex items-start gap-3">
+                            <svg class="w-6 h-6 text-red-500 shrink-0 mt-0.5" fill="none" stroke="currentColor" viewBox="0 0 24 24" aria-hidden="true">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12l2 2 4-4m5.618-4.016A11.955 11.955 0 0112 2.944a11.955 11.955 0 01-8.618 3.04A12.02 12.02 0 003 9c0 5.591 3.824 10.29 9 11.622 5.176-1.332 9-6.03 9-11.622 0-1.042-.133-2.052-.382-3.016z"></path>
+                            </svg>
+                            <div>
+                                <h3 class="text-sm font-bold text-white">Garantía de trabajo</h3>
+                                <p class="text-xs text-slate-400 mt-0.5">Colocamos repuestos certificados de marcas líderes del mercado.</p>
+                            </div>
+                        </div>
+                    </div>
                 </div>
             </div>
-        </div>
+        </section>
 
-        <div class="bg-gray-900 text-white text-center py-8" id="contacto">
-            <h2 class="text-3xl font-bold mb-4">Contactanos</h2>
-            <div class="flex justify-center items-center my-5 mx-3">
-                <a href="https://api.whatsapp.com/send?phone=5491165385555" target="_blank" class="mr-4 flex">
-                    <img src="img/iconos/icons8-whatsapp-50.png" alt="WhatsApp Icon" class="w-8 h-8 mr-3 text-white">
-                    <span class="  text-white self-center">WhatsApp</span>
-                </a>
-                <a href="tel:+5491165385555" target="_blank" class="mr-4 flex">
-                    <img src="img/iconos/icons8-phone-100.png" alt="Phone Icon" class="w-8 h-8 mr-3 text-white">
-                    <span class="text-white self-center">Telefono</span>
-                </a>
-                <a href="https://maps.app.goo.gl/DQRJ5UdJjgps5yuP7" target="_blank" class="mr-4 flex">
-                    <img src="img/iconos/icons8-location-50.png" alt="Phone Icon" class="w-8 h-8 mr-3 text-white">
-                    <span class="text-white self-center">Ubicacion</span>
-                </a>
+        <!-- Diagnóstico de Fallas Frecuentes -->
+        <section id="sintomas" class="py-16 sm:py-20 bg-slate-900 border-b border-slate-800">
+            <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+                <div class="max-w-3xl mb-12">
+                    <h2 class="text-2xl sm:text-3xl font-extrabold text-white tracking-tight">
+                        ¿Cómo detectar que tus frenos necesitan atención?
+                    </h2>
+                    <p class="text-slate-300 mt-3 text-base sm:text-lg">
+                        El sistema de frenos avisa antes de fallar por completo. Conocer estos síntomas previene roturas mayores y garantiza tu seguridad.
+                    </p>
+                </div>
+
+                <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
+                    <!-- Síntoma 1 -->
+                    <article class="bg-slate-950 p-6 rounded-xl border border-slate-800 flex flex-col justify-between">
+                        <div>
+                            <div class="w-10 h-10 rounded-lg bg-red-950/60 border border-red-800 text-red-400 flex items-center justify-center font-bold text-lg mb-4">
+                                1
+                            </div>
+                            <h3 class="text-lg font-bold text-white mb-2">Pedal esponjoso o al fondo</h3>
+                            <p class="text-sm text-slate-300 leading-relaxed">
+                                Si al pisar el pedal sentís que baja más de lo normal o le falta firmeza, puede haber aire en el circuito, desgaste en la bomba de freno o pérdida en flexibles.
+                            </p>
+                        </div>
+                        <div class="mt-6 pt-4 border-t border-slate-800 text-xs text-red-400 font-semibold">
+                            Acción: Purga o revisión de bomba inmediata.
+                        </div>
+                    </article>
+
+                    <!-- Síntoma 2 -->
+                    <article class="bg-slate-950 p-6 rounded-xl border border-slate-800 flex flex-col justify-between">
+                        <div>
+                            <div class="w-10 h-10 rounded-lg bg-red-950/60 border border-red-800 text-red-400 flex items-center justify-center font-bold text-lg mb-4">
+                                2
+                            </div>
+                            <h3 class="text-lg font-bold text-white mb-2">Chirrido agudo o ruido metálico</h3>
+                            <p class="text-sm text-slate-300 leading-relaxed">
+                                Un sonido metálico persistente al frenar indica que las pastillas llegaron a su límite y el respaldo de chapa está rozando el disco, rayándolo.
+                            </p>
+                        </div>
+                        <div class="mt-6 pt-4 border-t border-slate-800 text-xs text-red-400 font-semibold">
+                            Acción: Reemplazo urgente de pastillas.
+                        </div>
+                    </article>
+
+                    <!-- Síntoma 3 -->
+                    <article class="bg-slate-950 p-6 rounded-xl border border-slate-800 flex flex-col justify-between">
+                        <div>
+                            <div class="w-10 h-10 rounded-lg bg-red-950/60 border border-red-800 text-red-400 flex items-center justify-center font-bold text-lg mb-4">
+                                3
+                            </div>
+                            <h3 class="text-lg font-bold text-white mb-2">Vibración en el volante</h3>
+                            <p class="text-sm text-slate-300 leading-relaxed">
+                                Cuando el volante o el pedal tiemblan al pisar el freno a velocidad media o alta, suele deberse a discos deformados por choque térmico o alabeo.
+                            </p>
+                        </div>
+                        <div class="mt-6 pt-4 border-t border-slate-800 text-xs text-red-400 font-semibold">
+                            Acción: Rectificación en torno o cambio de discos.
+                        </div>
+                    </article>
+
+                    <!-- Síntoma 4 -->
+                    <article class="bg-slate-950 p-6 rounded-xl border border-slate-800 flex flex-col justify-between">
+                        <div>
+                            <div class="w-10 h-10 rounded-lg bg-red-950/60 border border-red-800 text-red-400 flex items-center justify-center font-bold text-lg mb-4">
+                                4
+                            </div>
+                            <h3 class="text-lg font-bold text-white mb-2">El vehículo tira hacia un lado</h3>
+                            <p class="text-sm text-slate-300 leading-relaxed">
+                                Si al frenar el auto tiende a desviarse de la línea recta, un cáliper puede estar trabado, o hay una rueda frenando con menos presión que la otra.
+                            </p>
+                        </div>
+                        <div class="mt-6 pt-4 border-t border-slate-800 text-xs text-red-400 font-semibold">
+                            Acción: Revisión de cálipers y pistones.
+                        </div>
+                    </article>
+                </div>
             </div>
-            <p class="text-lg">¡Contáctanos hoy mismo para obtener más información sobre nuestros servicios y programar
-                una cita. Consulta y revision sin cargo!</p>
-        </div>
+        </section>
+
+        <!-- Catálogo de Servicios Detallado -->
+        <section id="servicios" class="py-16 sm:py-24 bg-slate-950 border-b border-slate-800">
+            <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+                <div class="flex flex-col md:flex-row md:items-end justify-between mb-14 gap-6">
+                    <div class="max-w-2xl">
+                        <h2 class="text-3xl sm:text-4xl font-extrabold text-white tracking-tight">
+                            Nuestros Servicios de Taller
+                        </h2>
+                        <p class="text-slate-300 mt-3 text-base sm:text-lg">
+                            Trabajos especializados con instrumental adecuado, repuestos de primera calidad y garantía escrita sobre la mano de obra.
+                        </p>
+                    </div>
+                    <div>
+                        <a href="#cotizador" class="inline-flex items-center text-sm font-semibold text-red-400 hover:text-red-300 transition-colors">
+                            <span>Consultar presupuesto por algún servicio</span>
+                            <svg class="w-4 h-4 ml-1" fill="none" stroke="currentColor" viewBox="0 0 24 24" aria-hidden="true">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M14 5l7 7m0 0l-7 7m7-7H3"></path>
+                            </svg>
+                        </a>
+                    </div>
+                </div>
+
+                <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+                    <!-- Servicio 1 -->
+                    <div class="bg-slate-900 border border-slate-800 rounded-xl p-6 hover:border-slate-700 transition-colors">
+                        <div class="w-12 h-12 rounded-lg bg-red-950/80 border border-red-800 flex items-center justify-center text-red-400 mb-5">
+                            <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24" aria-hidden="true">
+                                <circle cx="12" cy="12" r="9" stroke-width="2"></circle>
+                                <circle cx="12" cy="12" r="3" stroke-width="2"></circle>
+                                <path stroke-width="2" d="M12 3v3m0 12v3M3 12h3m12 0h3"></path>
+                            </svg>
+                        </div>
+                        <h3 class="text-xl font-bold text-white mb-2">Pastillas y Discos de Freno</h3>
+                        <p class="text-slate-300 text-sm leading-relaxed mb-4">
+                            Colocación de pastillas blandas y semimetálicas homologadas para evitar ruidos molestos. Montaje de discos ventilados o sólidos con control de espesor según manual de fábrica.
+                        </p>
+                        <ul class="text-xs text-slate-400 space-y-1.5 border-t border-slate-800 pt-3">
+                            <li class="flex items-center gap-1.5">• Limpieza y lubricación de pernos guía</li>
+                            <li class="flex items-center gap-1.5">• Asentamiento de frenos verificado</li>
+                        </ul>
+                    </div>
+
+                    <!-- Servicio 2 -->
+                    <div class="bg-slate-900 border border-slate-800 rounded-xl p-6 hover:border-slate-700 transition-colors">
+                        <div class="w-12 h-12 rounded-lg bg-red-950/80 border border-red-800 flex items-center justify-center text-red-400 mb-5">
+                            <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24" aria-hidden="true">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M10.325 4.317c.426-1.756 2.924-1.756 3.35 0a1.724 1.724 0 002.573 1.066c1.543-.94 3.31.826 2.37 2.37a1.724 1.724 0 001.065 2.572c1.756.426 1.756 2.924 0 3.35a1.724 1.724 0 00-1.066 2.573c.94 1.543-.826 3.31-2.37 2.37a1.724 1.724 0 00-2.572 1.065c-.426 1.756-2.924 1.756-3.35 0a1.724 1.724 0 00-2.573-1.066c-1.543.94-3.31-.826-2.37-2.37a1.724 1.724 0 00-1.065-2.572c-1.756-.426-1.756-2.924 0-3.35a1.724 1.724 0 001.066-2.573c-.94-1.543.826-3.31 2.37-2.37.996.608 2.296.07 2.572-1.065z"></path>
+                                <circle cx="12" cy="12" r="3" stroke-width="2"></circle>
+                            </svg>
+                        </div>
+                        <h3 class="text-xl font-bold text-white mb-2">Rectificación en Torno Propio</h3>
+                        <p class="text-slate-300 text-sm leading-relaxed mb-4">
+                            Mecanizado de precisión para discos y campanas de freno. Eliminamos alabeos, surcos y deformaciones térmicas, restaurando la superficie de fricción óptima.
+                        </p>
+                        <ul class="text-xs text-slate-400 space-y-1.5 border-t border-slate-800 pt-3">
+                            <li class="flex items-center gap-1.5">• Medición previa con micrómetro digital</li>
+                            <li class="flex items-center gap-1.5">• Respeto de tolerancia mínima de seguridad</li>
+                        </ul>
+                    </div>
+
+                    <!-- Servicio 3 -->
+                    <div class="bg-slate-900 border border-slate-800 rounded-xl p-6 hover:border-slate-700 transition-colors">
+                        <div class="w-12 h-12 rounded-lg bg-red-950/80 border border-red-800 flex items-center justify-center text-red-400 mb-5">
+                            <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24" aria-hidden="true">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13 10V3L4 14h7v7l9-11h-7z"></path>
+                            </svg>
+                        </div>
+                        <h3 class="text-xl font-bold text-white mb-2">Servo y Bomba Principal</h3>
+                        <p class="text-slate-300 text-sm leading-relaxed mb-4">
+                            Reparación hidráulica y neumática integral. Cambio de cubetas, pistones, diafragma de servoasistencia por vacío y prueba de presión en banco.
+                        </p>
+                        <ul class="text-xs text-slate-400 space-y-1.5 border-t border-slate-800 pt-3">
+                            <li class="flex items-center gap-1.5">• Solución a pedal duro o sin asistencia</li>
+                            <li class="flex items-center gap-1.5">• Reemplazo de válvulas de retención</li>
+                        </ul>
+                    </div>
+
+                    <!-- Servicio 4 -->
+                    <div class="bg-slate-900 border border-slate-800 rounded-xl p-6 hover:border-slate-700 transition-colors">
+                        <div class="w-12 h-12 rounded-lg bg-red-950/80 border border-red-800 flex items-center justify-center text-red-400 mb-5">
+                            <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24" aria-hidden="true">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19.428 15.428a2 2 0 00-1.022-.547l-2.387-.477a6 6 0 00-3.86.517l-.318.158a6 6 0 01-3.86.517L6.05 15.21a2 2 0 00-1.806.547M8 4h8l-1 1v5.172a2 2 0 00.586 1.414l5 5c1.26 1.26.367 3.414-1.415 3.414H4.828c-1.782 0-2.674-2.154-1.414-3.414l5-5A2 2 0 009 10.172V5L8 4z"></path>
+                            </svg>
+                        </div>
+                        <h3 class="text-xl font-bold text-white mb-2">Purga y Sustitución de Líquido</h3>
+                        <p class="text-slate-300 text-sm leading-relaxed mb-4">
+                            Vaciado completo del circuito, purga por presión y llenado con líquido sintético DOT 4 o DOT 5.1. El líquido de frenos absorbe humedad con el tiempo y pierde punto de ebullición.
+                        </p>
+                        <ul class="text-xs text-slate-400 space-y-1.5 border-t border-slate-800 pt-3">
+                            <li class="flex items-center gap-1.5">• Medición de porcentaje de humedad</li>
+                            <li class="flex items-center gap-1.5">• Purga de las cuatro ruedas y módulo ABS</li>
+                        </ul>
+                    </div>
+
+                    <!-- Servicio 5 -->
+                    <div class="bg-slate-900 border border-slate-800 rounded-xl p-6 hover:border-slate-700 transition-colors">
+                        <div class="w-12 h-12 rounded-lg bg-red-950/80 border border-red-800 flex items-center justify-center text-red-400 mb-5">
+                            <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24" aria-hidden="true">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 3v2m6-2v2M9 19v2m6-2v2M5 9H3m2 6H3m18-6h-2m2 6h-2M7 19h10a2 2 0 002-2V7a2 2 0 00-2-2H7a2 2 0 00-2 2v10a2 2 0 002 2zM9 9h6v6H9V9z"></path>
+                            </svg>
+                        </div>
+                        <h3 class="text-xl font-bold text-white mb-2">Diagnóstico de ABS y Sensores</h3>
+                        <p class="text-slate-300 text-sm leading-relaxed mb-4">
+                            Revisión de coronas dentadas, lectura y comprobación de sensores inductivos y magnéticos de rueda. Identificación de fallas en centralitas hidráulicas de ABS y control de estabilidad.
+                        </p>
+                        <ul class="text-xs text-slate-400 space-y-1.5 border-t border-slate-800 pt-3">
+                            <li class="flex items-center gap-1.5">• Diagnóstico ante luz de testigo encendida</li>
+                            <li class="flex items-center gap-1.5">• Comprobación de cableado y fichas</li>
+                        </ul>
+                    </div>
+
+                    <!-- Servicio 6 -->
+                    <div class="bg-slate-900 border border-slate-800 rounded-xl p-6 hover:border-slate-700 transition-colors">
+                        <div class="w-12 h-12 rounded-lg bg-red-950/80 border border-red-800 flex items-center justify-center text-red-400 mb-5">
+                            <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24" aria-hidden="true">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 6V4m0 2a2 2 0 100 4m0-4a2 2 0 110 4m-6 8a2 2 0 100-4m0 4a2 2 0 110-4m0 4v2m0-6V4m6 6v10m6-2a2 2 0 100-4m0 4a2 2 0 110-4m0 4v2m0-6V4"></path>
+                            </svg>
+                        </div>
+                        <h3 class="text-xl font-bold text-white mb-2">Freno de Mano y Cintas Traseras</h3>
+                        <p class="text-slate-300 text-sm leading-relaxed mb-4">
+                            Regulación de balancines, cambio de cables acerados de freno de mano y remachado o pegado de cintas para sistemas a campana de eje trasero.
+                        </p>
+                        <ul class="text-xs text-slate-400 space-y-1.5 border-t border-slate-800 pt-3">
+                            <li class="flex items-center gap-1.5">• Regulación milimétrica de palanca</li>
+                            <li class="flex items-center gap-1.5">• Control de bombines y cilindros de rueda</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Cotizador Interactivo para WhatsApp -->
+        <section id="cotizador" class="py-16 sm:py-24 bg-slate-900 border-b border-slate-800">
+            <div class="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
+                <div class="bg-slate-950 border border-slate-800 rounded-2xl p-6 sm:p-10 shadow-xl">
+                    <div class="text-center max-w-2xl mx-auto mb-8">
+                        <span class="text-xs font-bold text-red-500 uppercase tracking-widest">Atención Rápida</span>
+                        <h2 class="text-2xl sm:text-3xl font-extrabold text-white mt-1">
+                            Armá tu Consulta de Presupuesto
+                        </h2>
+                        <p class="text-slate-300 text-sm sm:text-base mt-2">
+                            Seleccioná el tipo de vehículo y el síntoma o trabajo requerido. Te preparamos el mensaje para enviar directo a nuestro WhatsApp sin vueltas.
+                        </p>
+                    </div>
+
+                    <form id="quote-form" class="space-y-6" onsubmit="return false;">
+                        <div class="grid grid-cols-1 sm:grid-cols-2 gap-6">
+                            <div>
+                                <label for="quote-vehicle" class="block text-sm font-semibold text-slate-200 mb-2">
+                                    Tipo de Vehículo
+                                </label>
+                                <select id="quote-vehicle"
+                                    class="w-full bg-slate-900 border border-slate-700 text-white rounded-lg px-4 py-3 text-sm focus:outline-none focus:border-red-500 focus:ring-1 focus:ring-red-500">
+                                    <option value="Auto Particular (Hatchback / Sedán chico)">Auto Particular (Hatchback / Sedán chico)</option>
+                                    <option value="Sedán Grande / Familiar">Sedán Grande / Familiar</option>
+                                    <option value="SUV / Camioneta (Hilux, Ranger, Amarok, etc.)">SUV / Camioneta (Hilux, Ranger, Amarok, etc.)</option>
+                                    <option value="Utilitario / Furgón de Carga (Kangoo, Fiorino, Partner, etc.)">Utilitario / Furgón (Kangoo, Fiorino, etc.)</option>
+                                    <option value="Flota Comercial">Flota Comercial</option>
+                                </select>
+                            </div>
+
+                            <div>
+                                <label for="quote-service" class="block text-sm font-semibold text-slate-200 mb-2">
+                                    Servicio o Síntoma Principal
+                                </label>
+                                <select id="quote-service"
+                                    class="w-full bg-slate-900 border border-slate-700 text-white rounded-lg px-4 py-3 text-sm focus:outline-none focus:border-red-500 focus:ring-1 focus:ring-red-500">
+                                    <option value="Revisión integral sin cargo / Diagnóstico">Revisión integral sin cargo / Diagnóstico</option>
+                                    <option value="Cambio de pastillas de freno delanteras">Cambio de pastillas delanteras</option>
+                                    <option value="Cambio de pastillas y discos delanteros">Cambio de pastillas y discos delanteros</option>
+                                    <option value="Rectificación de discos / campanas">Rectificación de discos / campanas</option>
+                                    <option value="Reparación de servo o bomba de freno">Reparación de servo o bomba de freno</option>
+                                    <option value="Pedal esponjoso / Pérdida de líquido">Pedal esponjoso / Pérdida de líquido</option>
+                                    <option value="Ruido / Chirrido persistente al frenar">Ruido / Chirrido persistente al frenar</option>
+                                    <option value="Regulación de freno de mano y cintas traseras">Regulación freno de mano / Cintas</option>
+                                </select>
+                            </div>
+                        </div>
+
+                        <div class="grid grid-cols-1 sm:grid-cols-2 gap-6">
+                            <div>
+                                <label for="quote-model" class="block text-sm font-semibold text-slate-200 mb-2">
+                                    Marca, Modelo y Año (Opcional)
+                                </label>
+                                <input type="text" id="quote-model" placeholder="Ej: VW Gol 2017, Peugeot 208, etc."
+                                    class="w-full bg-slate-900 border border-slate-700 text-white rounded-lg px-4 py-3 text-sm placeholder-slate-500 focus:outline-none focus:border-red-500 focus:ring-1 focus:ring-red-500">
+                            </div>
+
+                            <div>
+                                <label for="quote-notes" class="block text-sm font-semibold text-slate-200 mb-2">
+                                    Comentario o detalle adicional (Opcional)
+                                </label>
+                                <input type="text" id="quote-notes" placeholder="Ej: vibra cuando freno a más de 80 km/h"
+                                    class="w-full bg-slate-900 border border-slate-700 text-white rounded-lg px-4 py-3 text-sm placeholder-slate-500 focus:outline-none focus:border-red-500 focus:ring-1 focus:ring-red-500">
+                            </div>
+                        </div>
+
+                        <!-- Vista previa del mensaje -->
+                        <div class="bg-slate-900 rounded-lg p-4 border border-slate-800">
+                            <span class="text-xs font-semibold text-slate-400 block mb-1">Mensaje que se enviará:</span>
+                            <pre id="quote-preview-text" class="text-xs text-slate-300 font-mono whitespace-pre-wrap leading-relaxed"></pre>
+                        </div>
+
+                        <div class="text-center pt-2">
+                            <button type="button" id="quote-send-btn"
+                                class="w-full sm:w-auto inline-flex items-center justify-center gap-2 px-8 py-4 rounded-lg text-white font-bold bg-green-700 hover:bg-green-800 text-base shadow-md transition-colors focus-visible:outline-green-400">
+                                <svg class="w-5 h-5 fill-current" viewBox="0 0 24 24" aria-hidden="true">
+                                    <path d="M12.031 2C6.496 2 2 6.496 2 12.031c0 1.97.574 3.805 1.572 5.352L2.094 22l4.742-1.445c1.492.906 3.238 1.477 5.195 1.477 5.535 0 10.031-4.496 10.031-10.031S17.566 2 12.031 2zm0 18.281c-1.742 0-3.344-.523-4.695-1.422l-.336-.227-2.82.859.875-2.734-.234-.367A8.17 8.17 0 013.78 12.03c0-4.555 3.7-8.25 8.25-8.25s8.25 3.695 8.25 8.25-3.695 8.25-8.25 8.25zm4.523-6.172c-.25-.125-1.469-.727-1.695-.812-.227-.086-.391-.125-.555.125-.164.25-.633.812-.781.977-.148.164-.297.188-.547.062s-1.055-.39-2.016-1.242c-.742-.664-1.242-1.484-1.391-1.734-.148-.25-.016-.383.109-.508.117-.117.25-.297.375-.445.125-.148.164-.25.25-.414.086-.164.047-.312-.023-.445-.07-.125-.555-1.336-.766-1.836-.203-.484-.414-.422-.57-.43-.148-.008-.32-.008-.492-.008s-.445.062-.68.32c-.234.25-.898.875-.898 2.133s.922 2.477 1.055 2.648c.133.172 1.812 2.766 4.383 3.875.617.266 1.094.422 1.469.547.617.203 1.18.172 1.625.109.492-.07 1.469-.602 1.672-1.18.203-.578.203-1.078.141-1.18-.062-.102-.227-.164-.477-.289z"/>
+                                </svg>
+                                <span>Enviar Consulta a WhatsApp</span>
+                            </button>
+                            <p class="text-xs text-slate-400 mt-3">Te respondemos directamente con disponibilidad y presupuesto orientativo.</p>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </section>
+
+        <!-- Sobre Nosotros / Trayectoria y Oficio -->
+        <section id="nosotros" class="py-16 sm:py-24 bg-slate-950 border-b border-slate-800">
+            <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+                <div class="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
+                    <div>
+                        <span class="text-xs font-bold text-red-500 uppercase tracking-widest">Oficio y Experiencia</span>
+                        <h2 class="text-3xl sm:text-4xl font-extrabold text-white mt-2 mb-6">
+                            Más de 50 años cuidando la seguridad de quienes conducen
+                        </h2>
+                        <div class="space-y-4 text-slate-300 text-base leading-relaxed">
+                            <p>
+                                <strong>Todo Frenos</strong> nació como un taller de oficio tradicional especializado exclusivamente en sistemas de frenado. A lo largo de más de cinco décadas en Avellaneda y Gerli, acompañamos la evolución técnica del automóvil: desde los primeros sistemas mecánicos a tambor hasta los actuales frenos con gestión electrónica ABS y control de estabilidad ESP.
+                            </p>
+                            <p>
+                                No tercerizamos los trabajos delicados: contamos con maquinaria propia de rectificación de discos y campanas, herramientas de purgado a presión y bancos de prueba para bombas y servos.
+                            </p>
+                            <p>
+                                Nuestro compromiso es simple: diagnóstico transparente, repuestos que cumplen con las normas de seguridad vehicular y la tranquilidad de saber que tu vehículo frena cuando tiene que frenar.
+                            </p>
+                        </div>
+
+                        <div class="grid grid-cols-2 gap-4 mt-8 pt-6 border-t border-slate-800">
+                            <div>
+                                <span class="text-2xl font-black text-white block">+50</span>
+                                <span class="text-xs text-slate-400 uppercase tracking-wide">Años en la misma zona</span>
+                            </div>
+                            <div>
+                                <span class="text-2xl font-black text-white block">100%</span>
+                                <span class="text-xs text-slate-400 uppercase tracking-wide">Especializados en frenos</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="bg-slate-900 border border-slate-800 rounded-2xl p-6 sm:p-8">
+                        <h3 class="text-xl font-bold text-white mb-4">¿Por qué elegir un taller frenista especializado?</h3>
+                        <div class="space-y-4">
+                            <div class="flex items-start gap-3">
+                                <div class="w-6 h-6 rounded-full bg-red-950 border border-red-800 text-red-400 flex items-center justify-center shrink-0 mt-0.5 text-xs font-bold">✓</div>
+                                <div>
+                                    <h4 class="text-sm font-semibold text-white">Precisión en el rectificado</h4>
+                                    <p class="text-xs text-slate-400 mt-0.5">Controlamos con micrómetro que el disco mantenga el espesor mínimo que exige el fabricante antes de mecanizar.</p>
+                                </div>
+                            </div>
+
+                            <div class="flex items-start gap-3">
+                                <div class="w-6 h-6 rounded-full bg-red-950 border border-red-800 text-red-400 flex items-center justify-center shrink-0 mt-0.5 text-xs font-bold">✓</div>
+                                <div>
+                                    <h4 class="text-sm font-semibold text-white">Pastillas con compuesto adecuado</h4>
+                                    <p class="text-xs text-slate-400 mt-0.5">Elegimos el material de fricción correcto según el peso y uso del vehículo para evitar chirridos y cristalizaciones.</p>
+                                </div>
+                            </div>
+
+                            <div class="flex items-start gap-3">
+                                <div class="w-6 h-6 rounded-full bg-red-950 border border-red-800 text-red-400 flex items-center justify-center shrink-0 mt-0.5 text-xs font-bold">✓</div>
+                                <div>
+                                    <h4 class="text-sm font-semibold text-white">Presupuesto honesto</h4>
+                                    <p class="text-xs text-slate-400 mt-0.5">Si una pieza aún tiene vida útil remanente, te lo decimos. No cambiamos repuestos por cambiar.</p>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="mt-8 p-4 rounded-xl bg-slate-950 border border-slate-800 text-xs text-slate-300">
+                            <strong>¿Tenés dudas sobre el estado de tus frenos?</strong> Acercate a Av. Crisólogo Larralde 1233 y hacemos una revisión visual de pastillas y discos sin cargo.
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Preguntas Frecuentes (FAQ Accesible con details/summary) -->
+        <section id="faq" class="py-16 sm:py-24 bg-slate-900 border-b border-slate-800">
+            <div class="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
+                <div class="text-center mb-12">
+                    <h2 class="text-2xl sm:text-3xl font-extrabold text-white">
+                        Preguntas Frecuentes sobre Frenos
+                    </h2>
+                    <p class="text-slate-300 text-base mt-2">
+                        Respuestas directas a las consultas más habituales de nuestros clientes.
+                    </p>
+                </div>
+
+                <div class="space-y-4">
+                    <details class="group bg-slate-950 border border-slate-800 rounded-xl p-5 [&_summary::-webkit-details-marker]:hidden">
+                        <summary class="flex items-center justify-between cursor-pointer font-bold text-white text-base focus-visible:outline-red-500 rounded">
+                            <span>¿Cada cuánto tiempo o kilómetros conviene revisar las pastillas?</span>
+                            <span class="ml-4 shrink-0 transition-transform duration-200 group-open:rotate-180 text-red-500">
+                                <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"></path></svg>
+                            </span>
+                        </summary>
+                        <p class="mt-4 text-sm text-slate-300 leading-relaxed border-t border-slate-800/80 pt-3">
+                            En promedio recomendamos una revisión cada 15.000 a 20.000 km, o al menos una vez al año. En vehículos de uso intensivo (taxis, remises, utilitarios de reparto), el control debe realizarse cada 10.000 km debido al frenado continuo en ciudad.
+                        </p>
+                    </details>
+
+                    <details class="group bg-slate-950 border border-slate-800 rounded-xl p-5 [&_summary::-webkit-details-marker]:hidden">
+                        <summary class="flex items-center justify-between cursor-pointer font-bold text-white text-base focus-visible:outline-red-500 rounded">
+                            <span>¿Por qué chillan los frenos al frenar suavemente?</span>
+                            <span class="ml-4 shrink-0 transition-transform duration-200 group-open:rotate-180 text-red-500">
+                                <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"></path></svg>
+                            </span>
+                        </summary>
+                        <p class="mt-4 text-sm text-slate-300 leading-relaxed border-t border-slate-800/80 pt-3">
+                            El chirrido suele provocarse por cristalización de la pastilla (debido a sobrecalentamiento), falta de lubricación en los apoyos de cáliper, o pastillas con compuesto demasiado duro o sin ranura antidispérsica. También ocurre cuando la pastilla llega al chasis metálico.
+                        </p>
+                    </details>
+
+                    <details class="group bg-slate-950 border border-slate-800 rounded-xl p-5 [&_summary::-webkit-details-marker]:hidden">
+                        <summary class="flex items-center justify-between cursor-pointer font-bold text-white text-base focus-visible:outline-red-500 rounded">
+                            <span>¿Cuándo se puede rectificar un disco y cuándo es obligatorio cambiarlo?</span>
+                            <span class="ml-4 shrink-0 transition-transform duration-200 group-open:rotate-180 text-red-500">
+                                <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"></path></svg>
+                            </span>
+                        </summary>
+                        <p class="mt-4 text-sm text-slate-300 leading-relaxed border-t border-slate-800/80 pt-3">
+                            Cada disco de freno tiene estampado de fábrica un espesor mínimo de seguridad (medido en milímetros). Si al tornearlo el espesor resultante queda por encima de esa cota de seguridad, se puede rectificar perfectamente. Si queda por debajo, no es seguro y debe reemplazarse por discos nuevos.
+                        </p>
+                    </details>
+
+                    <details class="group bg-slate-950 border border-slate-800 rounded-xl p-5 [&_summary::-webkit-details-marker]:hidden">
+                        <summary class="flex items-center justify-between cursor-pointer font-bold text-white text-base focus-visible:outline-red-500 rounded">
+                            <span>¿Cuánto tiempo demora un trabajo en el taller?</span>
+                            <span class="ml-4 shrink-0 transition-transform duration-200 group-open:rotate-180 text-red-500">
+                                <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"></path></svg>
+                            </span>
+                        </summary>
+                        <p class="mt-4 text-sm text-slate-300 leading-relaxed border-t border-slate-800/80 pt-3">
+                            Un cambio de pastillas o pastillas y discos delanteros suele resolverse en el día (generalmente entre 2 y 4 horas según demanda del día). Trabajos que requieren reparación de servo, bomba o rectificado completo de las 4 ruedas pueden coordinarse para entrega en el día o jornada siguiente.
+                        </p>
+                    </details>
+
+                    <details class="group bg-slate-950 border border-slate-800 rounded-xl p-5 [&_summary::-webkit-details-marker]:hidden">
+                        <summary class="flex items-center justify-between cursor-pointer font-bold text-white text-base focus-visible:outline-red-500 rounded">
+                            <span>¿La revisión de frenos tiene costo?</span>
+                            <span class="ml-4 shrink-0 transition-transform duration-200 group-open:rotate-180 text-red-500">
+                                <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"></path></svg>
+                            </span>
+                        </summary>
+                        <p class="mt-4 text-sm text-slate-300 leading-relaxed border-t border-slate-800/80 pt-3">
+                            No. La revisión visual en fosa o elevador, el control del espesor de pastillas y el presupuesto son completamente sin cargo ni compromiso.
+                        </p>
+                    </details>
+                </div>
+            </div>
+        </section>
+
+        <!-- Ubicación, Mapa y Contacto -->
+        <section id="contacto" class="py-16 sm:py-24 bg-slate-950">
+            <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+                <div class="grid grid-cols-1 lg:grid-cols-2 gap-12">
+                    <div>
+                        <span class="text-xs font-bold text-red-500 uppercase tracking-widest">Atención en el Local</span>
+                        <h2 class="text-3xl sm:text-4xl font-extrabold text-white mt-1 mb-6">
+                            Vení al taller o comunicate con nosotros
+                        </h2>
+                        <p class="text-slate-300 text-base leading-relaxed mb-8">
+                            Estamos ubicados en una arteria clave de la zona sur, con acceso rápido desde Avellaneda Centro, Lanús y Sarandí.
+                        </p>
+
+                        <div class="space-y-6">
+                            <!-- Dirección -->
+                            <div class="flex items-start gap-4">
+                                <div class="w-10 h-10 rounded-lg bg-slate-900 border border-slate-800 flex items-center justify-center text-red-500 shrink-0">
+                                    <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24" aria-hidden="true">
+                                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17.657 16.657L13.414 20.9a1.998 1.998 0 01-2.827 0l-4.244-4.243a8 8 0 1111.314 0z"></path>
+                                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 11a3 3 0 11-6 0 3 3 0 016 0z"></path>
+                                    </svg>
+                                </div>
+                                <div>
+                                    <h3 class="text-sm font-bold text-white uppercase tracking-wider">Dirección</h3>
+                                    <p class="text-slate-200 text-base font-medium mt-0.5">Av. Crisólogo Larralde 1233</p>
+                                    <p class="text-slate-400 text-xs">Gerli, Avellaneda, Buenos Aires (CP 1870)</p>
+                                </div>
+                            </div>
+
+                            <!-- Teléfono -->
+                            <div class="flex items-start gap-4">
+                                <div class="w-10 h-10 rounded-lg bg-slate-900 border border-slate-800 flex items-center justify-center text-red-500 shrink-0">
+                                    <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24" aria-hidden="true">
+                                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 5a2 2 0 012-2h3.28a1 1 0 01.948.684l1.498 4.493a1 1 0 01-.502 1.21l-2.257 1.13a11.042 11.042 0 005.516 5.516l1.13-2.257a1 1 0 011.21-.502l4.493 1.498a1 1 0 01.684.949V19a2 2 0 01-2 2h-1C9.716 21 3 14.284 3 6V5z"></path>
+                                    </svg>
+                                </div>
+                                <div>
+                                    <h3 class="text-sm font-bold text-white uppercase tracking-wider">Teléfono de Taller</h3>
+                                    <p class="text-slate-200 text-base font-medium mt-0.5">
+                                        <a href="tel:+5491165385555" class="hover:text-red-400 transition-colors focus-visible:outline-red-500">
+                                            11 6538-5555
+                                        </a>
+                                    </p>
+                                    <p class="text-slate-400 text-xs">Llamadas directas durante el horario de taller</p>
+                                </div>
+                            </div>
+
+                            <!-- Horarios -->
+                            <div class="flex items-start gap-4">
+                                <div class="w-10 h-10 rounded-lg bg-slate-900 border border-slate-800 flex items-center justify-center text-red-500 shrink-0">
+                                    <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24" aria-hidden="true">
+                                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 8v4l3 3m6-3a9 9 0 11-18 0 9 9 0 0118 0z"></path>
+                                    </svg>
+                                </div>
+                                <div>
+                                    <h3 class="text-sm font-bold text-white uppercase tracking-wider">Horarios de Atención</h3>
+                                    <p class="text-slate-200 text-sm mt-0.5"><strong class="text-white">Lunes a Viernes:</strong> 08:00 a 18:00 hs (corrido)</p>
+                                    <p class="text-slate-200 text-sm"><strong class="text-white">Sábados:</strong> 08:00 a 13:00 hs</p>
+                                    <p class="text-slate-400 text-xs mt-0.5">Domingos y feriados: Cerrado</p>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- Botones de Acción -->
+                        <div class="flex flex-wrap gap-4 mt-8 pt-6 border-t border-slate-800">
+                            <a href="https://maps.app.goo.gl/DQRJ5UdJjgps5yuP7" target="_blank" rel="noopener noreferrer"
+                                class="inline-flex items-center gap-2 px-5 py-3 rounded-lg bg-red-600 hover:bg-red-700 text-white font-semibold text-sm transition-colors focus-visible:outline-red-500">
+                                <svg class="w-4 h-4 fill-current" viewBox="0 0 24 24" aria-hidden="true">
+                                    <path d="M12 2C8.13 2 5 5.13 5 9c0 5.25 7 13 7 13s7-7.75 7-13c0-3.87-3.13-7-7-7zm0 9.5c-1.38 0-2.5-1.12-2.5-2.5s1.12-2.5 2.5-2.5 2.5 1.12 2.5 2.5-1.12 2.5-2.5 2.5z"/>
+                                </svg>
+                                <span>Abrir en Google Maps</span>
+                            </a>
+                            <a href="https://api.whatsapp.com/send?phone=5491165385555" target="_blank" rel="noopener noreferrer"
+                                class="inline-flex items-center gap-2 px-5 py-3 rounded-lg bg-green-700 hover:bg-green-800 text-white font-semibold text-sm transition-colors focus-visible:outline-green-400">
+                                <span>WhatsApp de Consulta</span>
+                            </a>
+                        </div>
+                    </div>
+
+                    <!-- Tarjeta con mapa interactivo de Google Maps embebido -->
+                    <div class="bg-slate-900 border border-slate-800 rounded-2xl p-4 flex flex-col h-[400px] lg:h-auto overflow-hidden">
+                        <div class="flex items-center justify-between px-2 pb-3 text-xs text-slate-400">
+                            <span>Mapa de ubicación en Gerli, Avellaneda</span>
+                            <a href="https://maps.app.goo.gl/DQRJ5UdJjgps5yuP7" target="_blank" rel="noopener noreferrer" class="text-red-400 hover:underline">
+                                Ver pantalla completa ↗
+                            </a>
+                        </div>
+                        <iframe
+                            title="Ubicación de Todo Frenos en Google Maps"
+                            class="w-full flex-1 rounded-xl border border-slate-800"
+                            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3280.999863261623!2d-58.3702419!3d-34.6790463!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95a3333390fdb821%3A0xa757dad506ce51f0!2sTodo%20Frenos!5e0!3m2!1ses!2sar!4v1719800000000!5m2!1ses!2sar"
+                            loading="lazy"
+                            referrerpolicy="no-referrer-when-downgrade">
+                        </iframe>
+                    </div>
+                </div>
+            </div>
+        </section>
     </main>
 
-    <footer class="bg-gray-800 text-white text-center py-4 shadow-inset-white">
-        <p>&copy; 2024 Taller Todo Frenos. Todos los derechos reservados.</p>
-        <p>Desarrollado por <a href="mailto:arliayoel23@gmail.com" target="_blank"
-            class="text-blue-300">Yoel Arlia</a></p>
+    <!-- Footer Principal -->
+    <footer class="bg-slate-950 border-t border-slate-800 text-slate-400 text-xs py-10">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="grid grid-cols-1 md:grid-cols-4 gap-8 pb-8 border-b border-slate-800">
+                <div class="md:col-span-2">
+                    <div class="flex items-center gap-2 mb-3">
+                        <img src="img/logo3.png" alt="Logo Todo Frenos" class="w-8 h-8 object-contain">
+                        <span class="text-base font-extrabold text-white">TODO FRENOS</span>
+                    </div>
+                    <p class="text-slate-400 text-xs leading-relaxed max-w-sm">
+                        Taller mecánico especializado en sistemas de frenos para vehículos particulares, comerciales y flotas en Avellaneda y alrededores.
+                    </p>
+                </div>
+
+                <div>
+                    <h4 class="text-white font-bold mb-3 uppercase tracking-wider text-xs">Enlaces directos</h4>
+                    <ul class="space-y-2">
+                        <li><a href="#inicio" class="hover:text-white transition-colors">Inicio</a></li>
+                        <li><a href="#sintomas" class="hover:text-white transition-colors">Diagnóstico de Frenos</a></li>
+                        <li><a href="#servicios" class="hover:text-white transition-colors">Servicios de Taller</a></li>
+                        <li><a href="#cotizador" class="hover:text-white transition-colors">Cotizador de Presupuesto</a></li>
+                        <li><a href="#faq" class="hover:text-white transition-colors">Preguntas Frecuentes</a></li>
+                    </ul>
+                </div>
+
+                <div>
+                    <h4 class="text-white font-bold mb-3 uppercase tracking-wider text-xs">Taller</h4>
+                    <p class="text-slate-300">Av. Crisólogo Larralde 1233</p>
+                    <p class="text-slate-400">Gerli, Avellaneda, Buenos Aires</p>
+                    <p class="mt-2 text-slate-300">Tel: <a href="tel:+5491165385555" class="hover:text-white">11 6538-5555</a></p>
+                </div>
+            </div>
+
+            <div class="pt-6 flex flex-col sm:flex-row justify-between items-center gap-4 text-slate-500">
+                <p>&copy; <span id="current-year">2026</span> Todo Frenos. Todos los derechos reservados.</p>
+                <p>Desarrollado para Todo Frenos — Taller de Frenos en Gerli, Avellaneda.</p>
+            </div>
+        </div>
     </footer>
+
+    <!-- Botón flotante accesible de WhatsApp con Badge -->
+    <aside aria-label="Contacto directo por WhatsApp">
+        <a href="https://api.whatsapp.com/send?phone=5491165385555&text=Hola%20Todo%20Frenos,%20quiero%20hacer%20una%20consulta"
+            target="_blank" rel="noopener noreferrer"
+            class="fixed bottom-6 right-6 z-50 p-3.5 bg-green-700 hover:bg-green-800 text-white rounded-full shadow-2xl transition-transform hover:scale-105 focus-visible:outline-green-400 flex items-center justify-center group"
+            aria-label="Abrir chat de WhatsApp con Todo Frenos">
+            <svg class="w-7 h-7 fill-current" viewBox="0 0 24 24" aria-hidden="true">
+                <path d="M12.031 2C6.496 2 2 6.496 2 12.031c0 1.97.574 3.805 1.572 5.352L2.094 22l4.742-1.445c1.492.906 3.238 1.477 5.195 1.477 5.535 0 10.031-4.496 10.031-10.031S17.566 2 12.031 2zm0 18.281c-1.742 0-3.344-.523-4.695-1.422l-.336-.227-2.82.859.875-2.734-.234-.367A8.17 8.17 0 013.78 12.03c0-4.555 3.7-8.25 8.25-8.25s8.25 3.695 8.25 8.25-3.695 8.25-8.25 8.25zm4.523-6.172c-.25-.125-1.469-.727-1.695-.812-.227-.086-.391-.125-.555.125-.164.25-.633.812-.781.977-.148.164-.297.188-.547.062s-1.055-.39-2.016-1.242c-.742-.664-1.242-1.484-1.391-1.734-.148-.25-.016-.383.109-.508.117-.117.25-.297.375-.445.125-.148.164-.25.25-.414.086-.164.047-.312-.023-.445-.07-.125-.555-1.336-.766-1.836-.203-.484-.414-.422-.57-.43-.148-.008-.32-.008-.492-.008s-.445.062-.68.32c-.234.25-.898.875-.898 2.133s.922 2.477 1.055 2.648c.133.172 1.812 2.766 4.383 3.875.617.266 1.094.422 1.469.547.617.203 1.18.172 1.625.109.492-.07 1.469-.602 1.672-1.18.203-.578.203-1.078.141-1.18-.062-.102-.227-.164-.477-.289z"/>
+            </svg>
+            <span class="sr-only">Contactar por WhatsApp</span>
+            <!-- Tooltip -->
+            <span class="hidden md:group-hover:block absolute right-full mr-3 px-3 py-1.5 rounded-lg bg-slate-900 text-white text-xs whitespace-nowrap shadow-lg border border-slate-700">
+                ¿Consultas? Escribinos
+            </span>
+        </a>
+    </aside>
+
+    <script src="src/scripts.js"></script>
 </body>
-<script src="src/scripts.js"> </script>
+
 </html>
